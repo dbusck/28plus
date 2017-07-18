@@ -350,12 +350,12 @@ div.ui-input-text {
   outline-style: auto;
 }
 
-#StepContactInfo a[data-role="button"] {
+#StepContactInfo .ui-content a[data-role="button"] {
   background: #ffdf5e;
   border-radius: 40px;
-  margin: 20px auto;
   display: block;
-  float: none;
+  margin: 20px auto;
   max-width: 300px;
+  float: none !important;
   text-align: center !important;
 }
